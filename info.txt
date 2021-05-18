@@ -1,0 +1,39 @@
+Restfulapi
+
+1. for project run command is => npm run dev
+
+2. Need software is:-
+   a. mongoDB Compass
+   b. Postmana
+
+3. In mongoDB Compass one DB name is student-api >> collection name is students
+
+4. In Postman 
+    a. localhost:3000/students
+    b. create, get, update, delete
+
+5. Three dependencies in project
+   a. Express
+   b. Mongoose
+   c. validator
+
+6. In Src folder have 3 folder
+   a. db > connection.js (create database connection)
+   b. models > students.js (define Schema)
+   c. router > student.js (define all command like post, get, patch, delete, )
+
+
+postman and mongoDB Compass(database) format is:-
+
+{
+    "name": "Lata",
+    "email": "lata@gmail.com",
+    "phone": 8989898954,
+    "address" : "NCR"
+}
+
+
+for more knowledge youtube link series:-
+https://www.youtube.com/watch?v=ALrOcDPimWE&list=PLwGdqUZWnOp26kuL9GZaR0Bspm6RMAdrx&index=1
+
+
